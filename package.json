@@ -1,9 +1,14 @@
 {
 	"name": "fcc-learn-npm-package-json",
 	"author": "Amna Amen",
+	"description":"Project to learn node in CS355",
 	"dependencies": {
-		"express": "^4.14.0"
+		"express": "^4.14.0",
+		"moment":"~4.14.0"
 	},
+	"license": "MIT",
+	"version":"1.1.0",
+	"keywords":["nodejs", "freecodecamp","npm", "cs355"],
 	"main": "server.js",
 	"scripts": {
 		"start": "node server.js"
